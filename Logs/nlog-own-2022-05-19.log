@@ -1,0 +1,11 @@
+2022-05-19 10:21:18.0115|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-19 From = EUR To = EUR Amount = 0 Calculated amount = 0 Rate = 1 
+2022-05-19 10:21:33.3195|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-19 From = EUR To = EUR Amount = 7 Calculated amount = 7 Rate = 1 
+2022-05-19 10:21:44.3808|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-19 From = BRL To = CNY Amount = 9,87 Calculated amount = 13,48 Rate = 1,37 
+2022-05-19 10:21:54.3356|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-02 From = BRL To = CNY Amount = 9,87 Calculated amount = 13,08 Rate = 1,33 
+2022-05-19 10:22:01.3329|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-09 From = BRL To = CNY Amount = 9,87 Calculated amount = 12,88 Rate = 1,30 
+2022-05-19 10:22:08.8518|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|ERROR|Input string was not in a correct format.. Value = ';l;' 
+2022-05-19 10:22:09.6767|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-09 From = BRL To = CNY Amount = 0 Calculated amount = 0 Rate = 1,30 
+2022-05-19 10:26:57.9503|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-19 From = EUR To = EUR Amount = 0 Calculated amount = 0 Rate = 1 
+2022-05-19 10:27:20.4325|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-19 From = EUR To = EUR Amount = 9 Calculated amount = 9 Rate = 1 
+2022-05-19 10:27:27.2063|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-19 From = EUR To = EUR Amount = 76767 Calculated amount = 76767 Rate = 1 
+2022-05-19 10:27:31.9389|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-19 From = EUR To = BYN Amount = 76767,00 Calculated amount = 270969,09 Rate = 3,53 

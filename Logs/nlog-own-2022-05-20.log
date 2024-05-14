@@ -1,0 +1,27 @@
+2022-05-20 13:14:38.9447|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-20 From = EUR To = EUR Amount = 0 Calculated amount = 0 Rate = 1 
+2022-05-20 13:15:31.0565|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-20 From = EUR To = EUR Amount = 12 Calculated amount = 12 Rate = 1 
+2022-05-20 13:15:38.0204|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-20 From = BOB To = COP Amount = 12,00 Calculated amount = 6907,81 Rate = 575,65 
+2022-05-20 13:15:44.3438|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-08 From = BOB To = COP Amount = 12,00 Calculated amount = 6907,81 Rate = 575,65 
+2022-05-20 13:15:48.9569|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-02 From = BOB To = COP Amount = 12,00 Calculated amount = 6907,81 Rate = 575,65 
+2022-05-20 13:15:55.0892|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-10 From = BOB To = COP Amount = 12,00 Calculated amount = 6907,81 Rate = 575,65 
+2022-05-20 13:16:01.5649|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-26 From = BOB To = COP Amount = 12,00 Calculated amount = 6907,81 Rate = 575,65 
+2022-05-20 13:16:12.5975|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-02-07 From = BOB To = COP Amount = 12,00 Calculated amount = 6907,20 Rate = 575,60 
+2022-05-20 13:34:27.9984|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-20 From = EUR To = EUR Amount = 0 Calculated amount = 0 Rate = 1 
+2022-05-20 13:35:18.4443|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-20 From = BGN To = BYN Amount = 9,67 Calculated amount = 17,45 Rate = 1,80 
+2022-05-20 13:35:28.0811|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|ERROR|Input string was not in a correct format.. Value = 'fdsfsd' 
+2022-05-20 13:35:29.0204|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-20 From = BGN To = BYN Amount = 0 Calculated amount = 0 Rate = 1,80 
+2022-05-20 13:36:43.1031|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-20 From = EUR To = EUR Amount = 0 Calculated amount = 0 Rate = 1 
+2022-05-20 13:47:30.7677|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-20 From = EUR To = EUR Amount = 0 Calculated amount = 0 Rate = 1 
+2022-05-20 13:48:15.3493|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|ERROR|Input string was not in a correct format.. Value = '' 
+2022-05-20 13:48:16.3244|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-20 From = EUR To = EUR Amount = 0 Calculated amount = 0 Rate = 1 
+2022-05-20 13:51:15.6902|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-20 From = EUR To = EUR Amount = 0 Calculated amount = 0 Rate = 1 
+2022-05-20 13:54:14.2572|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-20 From = BYN To = CLP Amount = 0,00 Calculated amount = 0 Rate = 253,15 
+2022-05-20 13:54:21.6023|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-20 From = BYN To = CLP Amount = 8,46 Calculated amount = 2140,65 Rate = 253,15 
+2022-05-20 16:50:08.1577|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-20 From = EUR To = EUR Amount = 0 Calculated amount = 0 Rate = 1 
+2022-05-20 16:52:12.3421|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-10 From = CHF To = CZK Amount = 78 Calculated amount = 1861,91 Rate = 23,87 
+2022-05-20 16:53:02.0798|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-10 From = EUR To = GBP Amount = 78,00 Calculated amount = 66,76 Rate = 0,86 
+2022-05-20 17:03:12.5115|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-10 From = EUR To = GBP Amount = 5,68 Calculated amount = 4,86 Rate = 0,86 
+2022-05-20 17:03:39.4328|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-10 From = EUR To = GBP Amount = 5,57 Calculated amount = 4,77 Rate = 0,86 
+2022-05-20 17:04:16.8120|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-10 From = EUR To = GBP Amount = -9 Calculated amount = -7,70 Rate = 0,86 
+2022-05-20 17:05:58.3656|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|ERROR|Input string was not in a correct format.. Value = 'seven' 
+2022-05-20 17:05:59.5928|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-10 From = EUR To = GBP Amount = 0 Calculated amount = 0,00 Rate = 0,86 

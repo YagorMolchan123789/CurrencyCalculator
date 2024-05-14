@@ -1,0 +1,68 @@
+﻿@model CurrencyCalculator.Models.ViewModels.CalculatorViewModel
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="calculator-container">
+    <form asp-controller="Calculator" asp-action="Index" id="calculatorForm">
+        <div class="calculator-header">
+            <div class="header">
+                <p>Currency calculator</p>
+                <p id="status">@Model.ErrorMessage</p>
+            </div>
+        </div>        
+        <div class="currency-container">
+                <div class="from">
+                    <div class="form-group">
+                        <label asp-for="Amount" class="control-label"></label>
+                        <input asp-for="Amount" class="form-control"/><br/>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="FromAbbreviation" class="control-label"></label>
+                        <select asp-for="FromAbbreviation" asp-items="@Model.FromCurrencies" class="form-control"></select><br/>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="RateDate" class="control-label"></label>
+                        <input asp-for="RateDate" type="text" class="form-control"/><br/>
+                    </div>
+                </div>
+                <div class="to">
+                    <div class="form-group">
+                        <label asp-for="CalculatedAmount" class="control-label"></label>
+                        <input asp-for="CalculatedAmount" class="form-control" readonly/><br/>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ToAbbreviation" class="control-label"></label>
+                        <select asp-for="ToAbbreviation" asp-items="@Model.ToCurrencies" class="form-control"></select><br/>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Rate" class="control-label"></label><br/>
+                        <input asp-for="Rate" class="form-control" readonly/>
+                    </div>
+                </div>
+            </div>
+        <div class="calculator-footer">
+            <div class="footer">
+                <button type="submit" class="btn">Calculate</button>
+            </div>
+        </div>
+        
+    </form>
+</div>
+
+
+@section Scripts{
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+
+        $(function () {
+            $("#RateDate").datepicker({
+                dateFormat: "yy-mm-dd"
+            });
+        });
+
+    </script>
+}

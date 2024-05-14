@@ -1,0 +1,6 @@
+2022-05-18 20:39:33.4766|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|ERROR|Input string was not in a correct format.. Value = 'zcxzcxz' 
+2022-05-18 20:39:40.8832|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|ERROR|Input string was not in a correct format.. Value = 'zxc' 
+2022-05-18 20:51:00.9325|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-18 From = EUR To = EUR Amount = 0 Calculated amount = 0 Rate = 1 
+2022-05-18 20:51:13.5816|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-18 From = BGN To = DZD Amount = 5 Calculated amount = 388,35982718069332242560589018 Rate = 77,671965436138664485121178035 
+2022-05-18 21:02:31.8072|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-18 From = EUR To = EUR Amount = 0 Calculated amount = 0 Rate = 1 
+2022-05-18 21:03:15.4002|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|INFO|Rate date = 2022-05-18 From = BRL To = DZD Amount = 98,89 Calculated amount = 2890,38 Rate = 29,23 

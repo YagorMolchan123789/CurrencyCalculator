@@ -1,0 +1,215 @@
+2022-05-18 20:10:05.6163|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Calculator/Index.cshtml'. 
+2022-05-18 20:10:05.7186|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'. 
+2022-05-18 20:10:05.7186|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'. 
+2022-05-18 20:10:05.7186|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'. 
+2022-05-18 20:10:05.7186|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'. 
+2022-05-18 20:10:05.7186|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'. 
+2022-05-18 20:10:05.7186|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'. 
+2022-05-18 20:10:05.7186|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|DEBUG|Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'. 
+2022-05-18 20:10:05.7394|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|DEBUG|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2022-05-18 20:10:05.8739|Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting starting 
+2022-05-18 20:10:05.9862|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|INFO|User profile is available. Using 'C:\Users\molch\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2022-05-18 20:10:06.0360|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\molch\AppData\Local\ASP.NET\DataProtection-Keys\key-56488122-629f-4932-91d8-67df51c04935.xml'. 
+2022-05-18 20:10:06.0538|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {56488122-629f-4932-91d8-67df51c04935}. 
+2022-05-18 20:10:06.0759|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {56488122-629f-4932-91d8-67df51c04935} with expiration date 2022-07-19 10:46:57Z as default key. 
+2022-05-18 20:10:06.0759|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|DEBUG|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2022-05-18 20:10:06.0759|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2022-05-18 20:10:06.0852|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|DEBUG|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2022-05-18 20:10:06.0852|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|DEBUG|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2022-05-18 20:10:06.0852|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|DEBUG|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2022-05-18 20:10:06.0852|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {56488122-629f-4932-91d8-67df51c04935} as the default key. 
+2022-05-18 20:10:06.0852|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|DEBUG|Key ring with default key {56488122-629f-4932-91d8-67df51c04935} was loaded during application startup. 
+2022-05-18 20:10:06.2582|Microsoft.Hosting.Lifetime|INFO|Now listening on: http://localhost:5102 
+2022-05-18 20:10:06.2582|Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly CurrencyCalculator 
+2022-05-18 20:10:06.2582|Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2022-05-18 20:10:06.2582|Microsoft.AspNetCore.Hosting.Diagnostics|DEBUG|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2022-05-18 20:10:06.2582|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2022-05-18 20:10:06.2582|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2022-05-18 20:10:06.2582|Microsoft.Hosting.Lifetime|INFO|Content root path: F:\CurrencyCalculator\CurrencyCalculator\ 
+2022-05-18 20:10:06.2582|Microsoft.Extensions.Hosting.Internal.Host|DEBUG|Hosting started 
+2022-05-18 20:10:06.3079|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5P" accepted. 
+2022-05-18 20:10:06.3079|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5O" accepted. 
+2022-05-18 20:10:06.3079|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5P" started. 
+2022-05-18 20:10:06.3079|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5O" started. 
+2022-05-18 20:10:06.3342|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMHOU50NGV5P" received FIN. 
+2022-05-18 20:10:06.3342|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMHOU50NGV5O" received FIN. 
+2022-05-18 20:10:06.3595|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5P" disconnecting. 
+2022-05-18 20:10:06.3595|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5P" stopped. 
+2022-05-18 20:10:06.4102|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMHOU50NGV5P" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-05-18 20:10:06.4513|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMHOU50NGV5O" sending FIN because: "The client closed the connection." 
+2022-05-18 20:10:06.4513|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5O" disconnecting. 
+2022-05-18 20:10:06.4513|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5O" stopped. 
+2022-05-18 20:10:09.1154|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5Q" accepted. 
+2022-05-18 20:10:09.1166|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5Q" started. 
+2022-05-18 20:10:09.2813|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5102/ - - 
+2022-05-18 20:10:09.3610|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|DEBUG|Wildcard detected, all requests with hosts will be allowed. 
+2022-05-18 20:10:09.3610|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2022-05-18 20:10:09.3671|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2022-05-18 20:10:09.4176|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/' 
+2022-05-18 20:10:09.4176|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'CurrencyCalculator.Controllers.CalculatorController.Index (CurrencyCalculator)' with route pattern '{controller=Calculator}/{action=Index}/{id?}' is valid for the request path '/' 
+2022-05-18 20:10:09.4176|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'CurrencyCalculator.Controllers.CalculatorController.Index (CurrencyCalculator)' 
+2022-05-18 20:10:09.4290|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'CurrencyCalculator.Controllers.CalculatorController.Index (CurrencyCalculator)' 
+2022-05-18 20:10:09.5796|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {action = "Index", controller = "Calculator"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(CurrencyCalculator.Models.ViewModels.CalculatorViewModel) on controller CurrencyCalculator.Controllers.CalculatorController (CurrencyCalculator). 
+2022-05-18 20:10:09.5796|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of authorization filters (in the following order): None 
+2022-05-18 20:10:09.5796|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2022-05-18 20:10:09.5796|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2022-05-18 20:10:09.5796|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of exception filters (in the following order): None 
+2022-05-18 20:10:09.5796|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2022-05-18 20:10:09.5796|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-05-18 20:10:09.5796|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-05-18 20:10:09.5848|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executing controller factory for controller CurrencyCalculator.Controllers.CalculatorController (CurrencyCalculator) 
+2022-05-18 20:10:09.5848|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executed controller factory for controller CurrencyCalculator.Controllers.CalculatorController (CurrencyCalculator) 
+2022-05-18 20:10:09.6171|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Attempting to bind parameter 'model' of type 'CurrencyCalculator.Models.ViewModels.CalculatorViewModel' ... 
+2022-05-18 20:10:18.1117|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Done attempting to bind parameter 'model' of type 'CurrencyCalculator.Models.ViewModels.CalculatorViewModel'. 
+2022-05-18 20:10:18.1117|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Attempting to validate the bound parameter 'model' of type 'CurrencyCalculator.Models.ViewModels.CalculatorViewModel' ... 
+2022-05-18 20:10:18.1778|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Done attempting to validate the bound parameter 'model' of type 'CurrencyCalculator.Models.ViewModels.CalculatorViewModel'. 
+2022-05-18 20:10:18.1815|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2022-05-18 20:10:18.1815|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-18 20:10:18.1815|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-18 20:10:18.1815|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executing action method CurrencyCalculator.Controllers.CalculatorController.Index (CurrencyCalculator) - Validation state: Invalid 
+2022-05-18 20:10:18.1815|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Executing action method CurrencyCalculator.Controllers.CalculatorController.Index (CurrencyCalculator) with arguments (CurrencyCalculator.Models.ViewModels.CalculatorViewModel) 
+2022-05-18 20:10:18.1963|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action method CurrencyCalculator.Controllers.CalculatorController.Index (CurrencyCalculator), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.9474ms. 
+2022-05-18 20:10:18.1963|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-18 20:10:18.1963|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-18 20:10:18.1963|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2022-05-18 20:10:18.1963|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-05-18 20:10:18.1963|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-05-18 20:10:18.1963|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2022-05-18 20:10:18.1963|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Calculator'. 
+2022-05-18 20:10:18.1963|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Located compiled view for view at path '/Views/Calculator/Index.cshtml'. 
+2022-05-18 20:10:18.2127|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Could not find a file for view at path '/Views/Calculator/_ViewStart.cshtml'. 
+2022-05-18 20:10:18.2127|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Located compiled view for view at path '/Views/_ViewStart.cshtml'. 
+2022-05-18 20:10:18.2127|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Could not find a file for view at path '/_ViewStart.cshtml'. 
+2022-05-18 20:10:18.2127|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executing ViewResult, running view Index. 
+2022-05-18 20:10:18.2127|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|DEBUG|The view path '/Views/Calculator/Index.cshtml' was found in 18.4229ms. 
+2022-05-18 20:10:18.3613|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Found the endpoints Route: {controller=Calculator}/{action=Index}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2022-05-18 20:10:18.3757|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Successfully processed template {controller=Calculator}/{action=Index}/{id?} for Route: {controller=Calculator}/{action=Index}/{id?} resulting in  and  
+2022-05-18 20:10:18.3757|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Link generation succeeded for endpoints Route: {controller=Calculator}/{action=Index}/{id?} with result / 
+2022-05-18 20:10:18.3899|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {56488122-629f-4932-91d8-67df51c04935} with purposes ('F:\CurrencyCalculator\CurrencyCalculator\', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2022-05-18 20:10:18.3899|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {56488122-629f-4932-91d8-67df51c04935} with purposes ('F:\CurrencyCalculator\CurrencyCalculator\', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2022-05-18 20:10:18.3899|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|DEBUG|An antiforgery cookie token was reused. 
+2022-05-18 20:10:18.4675|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view '_Layout' in controller 'Calculator'. 
+2022-05-18 20:10:18.4675|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Could not find a file for view at path '/Views/Calculator/_Layout.cshtml'. 
+2022-05-18 20:10:18.4675|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|TRACE|Located compiled view for view at path '/Views/Shared/_Layout.cshtml'. 
+2022-05-18 20:10:18.6876|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executed ViewResult - view Index executed in 485.7461ms. 
+2022-05-18 20:10:18.6876|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2022-05-18 20:10:18.6876|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-05-18 20:10:18.6876|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-05-18 20:10:18.6876|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-05-18 20:10:18.6876|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-05-18 20:10:18.6876|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action CurrencyCalculator.Controllers.CalculatorController.Index (CurrencyCalculator) in 9112.4014ms 
+2022-05-18 20:10:18.6951|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'CurrencyCalculator.Controllers.CalculatorController.Index (CurrencyCalculator)' 
+2022-05-18 20:10:18.7624|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup is scheduled to include browser refresh script injection. 
+2022-05-18 20:10:18.7840|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup was updated to include browser refresh script injection. 
+2022-05-18 20:10:18.7840|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5Q" completed keep alive response. 
+2022-05-18 20:10:18.7891|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5102/ - - - 200 - text/html;+charset=utf-8 9512.5664ms 
+2022-05-18 20:10:19.1824|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5R" accepted. 
+2022-05-18 20:10:19.1824|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5R" started. 
+2022-05-18 20:10:19.2010|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5102/css/site.css?v=2WT7SlAr80wJpkhn9F999Z1i_e4NnBDeQES0AOPCgMM - - 
+2022-05-18 20:10:19.2010|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2022-05-18 20:10:19.2145|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5102/_framework/aspnetcore-browser-refresh.js - - 
+2022-05-18 20:10:19.2145|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5Q" completed keep alive response. 
+2022-05-18 20:10:19.2145|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5102/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 4.5909ms 
+2022-05-18 20:10:19.2145|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|TRACE|Range header's value is empty. 
+2022-05-18 20:10:19.2145|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /css/site.css was not modified 
+2022-05-18 20:10:19.2145|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /css/site.css 
+2022-05-18 20:10:19.2145|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5R" completed keep alive response. 
+2022-05-18 20:10:19.2145|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5102/css/site.css?v=2WT7SlAr80wJpkhn9F999Z1i_e4NnBDeQES0AOPCgMM - - - 304 - text/css 23.2629ms 
+2022-05-18 20:10:20.1630|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMHOU50NGV5R" received FIN. 
+2022-05-18 20:10:20.1632|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMHOU50NGV5Q" received FIN. 
+2022-05-18 20:10:20.1632|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5R" disconnecting. 
+2022-05-18 20:10:20.1632|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5R" stopped. 
+2022-05-18 20:10:20.1632|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5Q" disconnecting. 
+2022-05-18 20:10:20.1632|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5Q" stopped. 
+2022-05-18 20:10:20.1632|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMHOU50NGV5R" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-05-18 20:10:20.1632|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMHOU50NGV5Q" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-05-18 20:10:45.2882|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5S" accepted. 
+2022-05-18 20:10:45.2882|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5S" started. 
+2022-05-18 20:10:45.2882|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 POST http://localhost:5102/ application/x-www-form-urlencoded 286 
+2022-05-18 20:10:45.3135|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2022-05-18 20:10:45.3135|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2022-05-18 20:10:45.3135|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/' 
+2022-05-18 20:10:45.3135|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'CurrencyCalculator.Controllers.CalculatorController.Index (CurrencyCalculator)' with route pattern '{controller=Calculator}/{action=Index}/{id?}' is valid for the request path '/' 
+2022-05-18 20:10:45.3135|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'CurrencyCalculator.Controllers.CalculatorController.Index (CurrencyCalculator)' 
+2022-05-18 20:10:45.3135|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'CurrencyCalculator.Controllers.CalculatorController.Index (CurrencyCalculator)' 
+2022-05-18 20:10:45.3135|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {action = "Index", controller = "Calculator"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(CurrencyCalculator.Models.ViewModels.CalculatorViewModel) on controller CurrencyCalculator.Controllers.CalculatorController (CurrencyCalculator). 
+2022-05-18 20:10:45.3135|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of authorization filters (in the following order): None 
+2022-05-18 20:10:45.3135|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2022-05-18 20:10:45.3135|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2022-05-18 20:10:45.3135|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of exception filters (in the following order): None 
+2022-05-18 20:10:45.3135|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2022-05-18 20:10:45.3135|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-05-18 20:10:45.3135|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-05-18 20:10:45.3135|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executing controller factory for controller CurrencyCalculator.Controllers.CalculatorController (CurrencyCalculator) 
+2022-05-18 20:10:45.3135|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executed controller factory for controller CurrencyCalculator.Controllers.CalculatorController (CurrencyCalculator) 
+2022-05-18 20:10:45.3244|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HMHOU50NGV5S", Request id "0HMHOU50NGV5S:00000002": started reading request body. 
+2022-05-18 20:10:45.3244|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HMHOU50NGV5S", Request id "0HMHOU50NGV5S:00000002": done reading request body. 
+2022-05-18 20:10:45.3244|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Attempting to bind parameter 'model' of type 'CurrencyCalculator.Models.ViewModels.CalculatorViewModel' ... 
+2022-05-18 20:10:45.5088|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|ERROR|Input string was not in a correct format. 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Done attempting to bind parameter 'model' of type 'CurrencyCalculator.Models.ViewModels.CalculatorViewModel'. 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Attempting to validate the bound parameter 'model' of type 'CurrencyCalculator.Models.ViewModels.CalculatorViewModel' ... 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Done attempting to validate the bound parameter 'model' of type 'CurrencyCalculator.Models.ViewModels.CalculatorViewModel'. 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executing action method CurrencyCalculator.Controllers.CalculatorController.Index (CurrencyCalculator) - Validation state: Valid 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Executing action method CurrencyCalculator.Controllers.CalculatorController.Index (CurrencyCalculator) with arguments (CurrencyCalculator.Models.ViewModels.CalculatorViewModel) 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action method CurrencyCalculator.Controllers.CalculatorController.Index (CurrencyCalculator), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0447ms. 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Index' in controller 'Calculator'. 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executing ViewResult, running view Index. 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|DEBUG|The view path '/Views/Calculator/Index.cshtml' was found in 0.2839ms. 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Found the endpoints Route: {controller=Calculator}/{action=Index}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Successfully processed template {controller=Calculator}/{action=Index}/{id?} for Route: {controller=Calculator}/{action=Index}/{id?} resulting in  and  
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|DEBUG|Link generation succeeded for endpoints Route: {controller=Calculator}/{action=Index}/{id?} with result / 
+2022-05-18 20:10:46.8753|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {56488122-629f-4932-91d8-67df51c04935} with purposes ('F:\CurrencyCalculator\CurrencyCalculator\', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2022-05-18 20:10:46.8814|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {56488122-629f-4932-91d8-67df51c04935} with purposes ('F:\CurrencyCalculator\CurrencyCalculator\', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2022-05-18 20:10:46.8814|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|DEBUG|An antiforgery cookie token was reused. 
+2022-05-18 20:10:46.8814|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Calculator'. 
+2022-05-18 20:10:46.8814|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executed ViewResult - view Index executed in 13.8179ms. 
+2022-05-18 20:10:46.8814|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2022-05-18 20:10:46.8814|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-05-18 20:10:46.8814|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-05-18 20:10:46.8814|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-05-18 20:10:46.8814|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-05-18 20:10:46.8814|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action CurrencyCalculator.Controllers.CalculatorController.Index (CurrencyCalculator) in 1576.8505ms 
+2022-05-18 20:10:46.8814|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'CurrencyCalculator.Controllers.CalculatorController.Index (CurrencyCalculator)' 
+2022-05-18 20:10:46.8814|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup is scheduled to include browser refresh script injection. 
+2022-05-18 20:10:46.8814|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|DEBUG|Response markup was updated to include browser refresh script injection. 
+2022-05-18 20:10:46.8814|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5S" completed keep alive response. 
+2022-05-18 20:10:46.8814|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 POST http://localhost:5102/ application/x-www-form-urlencoded 286 - 200 - text/html;+charset=utf-8 1591.8322ms 
+2022-05-18 20:10:47.0695|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:5102/_framework/aspnetcore-browser-refresh.js - - 
+2022-05-18 20:10:47.0695|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5S" completed keep alive response. 
+2022-05-18 20:10:47.0695|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished HTTP/1.1 GET http://localhost:5102/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 0.7879ms 
+2022-05-18 20:10:50.2212|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMHOU50NGV5S" received FIN. 
+2022-05-18 20:10:50.2212|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5S" disconnecting. 
+2022-05-18 20:10:50.2212|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5S" stopped. 
+2022-05-18 20:10:50.2212|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|DEBUG|Connection id "0HMHOU50NGV5S" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-05-18 20:11:27.1445|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5T" accepted. 
+2022-05-18 20:11:27.1675|Microsoft.AspNetCore.Server.Kestrel.Connections|DEBUG|Connection id "0HMHOU50NGV5T" started. 
+2022-05-18 20:11:27.1675|Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 POST http://localhost:5102/ application/x-www-form-urlencoded 286 
+2022-05-18 20:11:27.1809|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|TRACE|All hosts are allowed. 
+2022-05-18 20:11:27.1809|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2022-05-18 20:11:27.1809|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|1 candidate(s) found for the request path '/' 
+2022-05-18 20:11:27.1809|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|DEBUG|Endpoint 'CurrencyCalculator.Controllers.CalculatorController.Index (CurrencyCalculator)' with route pattern '{controller=Calculator}/{action=Index}/{id?}' is valid for the request path '/' 
+2022-05-18 20:11:27.1809|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|DEBUG|Request matched endpoint 'CurrencyCalculator.Controllers.CalculatorController.Index (CurrencyCalculator)' 
+2022-05-18 20:11:27.1809|Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'CurrencyCalculator.Controllers.CalculatorController.Index (CurrencyCalculator)' 
+2022-05-18 20:11:27.1809|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {action = "Index", controller = "Calculator"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(CurrencyCalculator.Models.ViewModels.CalculatorViewModel) on controller CurrencyCalculator.Controllers.CalculatorController (CurrencyCalculator). 
+2022-05-18 20:11:27.1809|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of authorization filters (in the following order): None 
+2022-05-18 20:11:27.1809|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2022-05-18 20:11:27.1809|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2022-05-18 20:11:27.1809|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of exception filters (in the following order): None 
+2022-05-18 20:11:27.1809|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2022-05-18 20:11:27.1809|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-05-18 20:11:27.1809|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|TRACE|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2022-05-18 20:11:27.1809|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executing controller factory for controller CurrencyCalculator.Controllers.CalculatorController (CurrencyCalculator) 
+2022-05-18 20:11:27.1809|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|DEBUG|Executed controller factory for controller CurrencyCalculator.Controllers.CalculatorController (CurrencyCalculator) 
+2022-05-18 20:11:27.1809|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HMHOU50NGV5T", Request id "0HMHOU50NGV5T:00000002": started reading request body. 
+2022-05-18 20:11:27.1809|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HMHOU50NGV5T", Request id "0HMHOU50NGV5T:00000002": done reading request body. 
+2022-05-18 20:11:27.1809|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|DEBUG|Attempting to bind parameter 'model' of type 'CurrencyCalculator.Models.ViewModels.CalculatorViewModel' ... 
+2022-05-18 20:11:27.3214|CurrencyCalculator.Infrastructure.Binders.CalculatorViewModelBinder|ERROR|Input string was not in a correct format. 
